@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title "Wellcome in my react-app"%}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	{{ encore_entry_link_tags('app') }}
+
+{% endblock %}
+
+{% block body %}
+	<div id="app"></div>
+{% endblock %}
+
+{% block javascripts %}
+	{{ encore_entry_script_tags('app') }}
+
+{% endblock %}
+
